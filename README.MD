@@ -123,7 +123,7 @@ To start the development server, run:
 
 npm start
 
-The server will be available at http://localhost:8000 (or the port you define).
+The server will be available at http://localhost:3000 (or the port you define).
 
 Architectural Decisions
 Service Layer: All business logic is encapsulated within src/services/contactService.ts. This separates the core logic from the web-facing parts of the application (src/index.ts), making the code easier to test, maintain, and reason about.
